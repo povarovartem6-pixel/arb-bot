@@ -1,0 +1,17 @@
+.env
+config_local.py
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+*.log
