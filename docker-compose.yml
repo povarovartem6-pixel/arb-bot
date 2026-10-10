@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  arb-bot:
+    build: .
+    container_name: arb-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./arb.db:/app/arb.db
+    environment:
+      - TZ=Europe/Moscow
